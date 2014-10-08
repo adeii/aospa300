@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="AospaKKY300/vendor_Y300" path="vendor/Y300" remote="gh" revision="master" />
+  <project name="AospaKKY300/vendor_Y300" path="vendor/Y300" remote="github" revision="master" />
 </manifest>
