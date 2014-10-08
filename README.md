@@ -20,4 +20,4 @@ Build Instructions for AOSPA Y300 (U8833)
 
 2. Add my local manifest
 
-        curl https://raw.githubusercontent.com/AospaKKY300/android/master/roomservice.xml >> .repo/local_manifests/roomservice.xml
+        curl https://raw.githubusercontent.com/AospaKKY300/android/master/u8833.xml >> .repo/local_manifests/roomservice.xml
