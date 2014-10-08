@@ -8,6 +8,6 @@
   <project name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" path="hardware/atheros/wifi/ath6kl-huawei" remote="github" revision="master" />
   <project name="legaCyMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="cm-11.0" />
   <project name="Dazzozo/android_external_webkit" path="external/webkit" remote="github" revision="kitkat" />
-  <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
+  <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="kitkat" />
   <project name="Dazzozo/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="kitkat" />
 </manifest>
