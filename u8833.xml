@@ -10,4 +10,5 @@
   <project name="Dazzozo/android_external_webkit" path="external/webkit" remote="github" revision="kitkat" />
   <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
   <project name="Dazzozo/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="kitkat" />
+  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
 </manifest>
