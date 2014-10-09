@@ -24,6 +24,4 @@ Build Instructions for AOSPA Y300 (U8833)
 
 3. Build AOSPA for Y300
 
-        ``` bash
         ./rom_build.sh u8833 false
-        ```
