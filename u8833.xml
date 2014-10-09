@@ -19,6 +19,4 @@
   <!-- Webkit -->
   <project name="Dazzozo/android_external_webkit" path="external/webkit" remote="github" revision="kitkat" />
 
-  <!-- CM Apps -->
-  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
 </manifest>
