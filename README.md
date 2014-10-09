@@ -23,4 +23,5 @@ Build Instructions for AOSPA Y300 (U8833)
         curl https://raw.githubusercontent.com/AospaKKY300/android/master/u8833.xml >> .repo/local_manifests/roomservice.xml
 
 3. Build AOSPA for Y300
+
         ./rom_build.sh u8833 false
