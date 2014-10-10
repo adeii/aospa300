@@ -26,7 +26,12 @@ mkdir .repo/local_manifests
 curl https://raw.githubusercontent.com/AospaKKY300/android/master/u8833.xml > .repo/local_manifests/roomservice.xml
 ```
 
-3. Build AOSPA for Y300
+3. Download sources
+```bash
+repo sync -f -j8 && repo sync -f -j8
+```
+
+4. Build AOSPA for Y300
 
 ```bash
 ./rom_build.sh u8833 false
