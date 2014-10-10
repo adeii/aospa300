@@ -19,4 +19,8 @@
   <!-- Webkit -->
   <project name="Dazzozo/android_external_webkit" path="external/webkit" remote="github" revision="kitkat" />
 
+  <!-- Slim Vendor (Modified Build String) -->
+  <remove-project name="AOSPA-legacy/android_vendor_pa" />
+  <project path="vendor/pa" name="AospaKKY300/android_vendor_pa" remote="github" revision="kitkat" />
+
 </manifest>
