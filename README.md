@@ -1,4 +1,4 @@
-LiquidSmooth local_manifest
+Aospa
 ================
 
 Local Manifest to build AOSPA ROM for the Huawei Y300
