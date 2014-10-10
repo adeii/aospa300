@@ -15,7 +15,6 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 chmod a+x ~/bin/repo
 mkdir liquid
 cd liquid
-repo init -u https://android.googlesource.com/platform/manifest
 repo init -u git://github.com/AOSPA-legacy/manifest.git -b kitkat
 mkdir .repo/local_manifests
 ```
