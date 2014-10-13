@@ -9,7 +9,7 @@
 
   <!-- Framewrok Native -->
   <remove-project name="AOSPA-legacy/android_framewroks_native" />
-  <project name"Dazzozo/android_frameworks_native" path="frameworks_native" />
+  <project name"Dazzozo/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
 
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
