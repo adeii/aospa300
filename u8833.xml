@@ -7,10 +7,6 @@
   <project name="AospaKKY300/android_device_huawei_msm7x27a-common" path="device/huawei/msm7x27a-common" remote="github" revision="cm-11.0" />
   <project name="AospaKKY300/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="kitkat" />
 
-  <!-- Framewrok Native -->
-  <remove-project name="AOSPA-legacy/android_frameworks_native" />
-  <project name="Dazzozo/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
-
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
   <project name="AospaKKY300/android_vendor_pa" path="vendor/pa" remote="github" revision="kitkat" >
