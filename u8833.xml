@@ -9,11 +9,11 @@
 
   <!-- Framewrok Native -->
   <remove-project name="AOSPA-legacy/android_framewroks_native" />
-  <project name"Dazzozo/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
+  <project name="Dazzozo/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
 
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
-  <project path="vendor/pa" name="AospaKKY300/android_vendor_pa" remote="github" revision="kitkat" >
+  <project name="AospaKKY300/android_vendor_pa" path="vendor/pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
