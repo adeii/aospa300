@@ -14,4 +14,8 @@
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
 
+  <!-- Paranoid OTA -->
+  <remove-project name="AOSPA-legacy/android_packages_apps_ParanoidOTA" />
+  <project name="AospaKKY300/android_packages_apps_ParanoidOTA" path="packages/apps/ParanoidOTA" remote="github" revision="kitkat" />
+
 </manifest>
