@@ -4,6 +4,7 @@
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project name="AospaKKY300/android_device_huawei_u8833" path="device/huawei/u8833" remote="github" revision="cm-11.0" />
   <project name="AospaKKY300/android_device_huawei_u8825" path="device/huawei/u8825" remote="github" revision="cm-11.0" />
+  <project name="AospaKKY300/android_device_huawei_u8915" path="device/huawei/u8915" remote="github" revision="cm-11.0" />
   <project name="AospaKKY300/android_device_huawei_msm7x27a-common" path="device/huawei/msm7x27a-common" remote="github" revision="cm-11.0" />
   <project name="AospaKKY300/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="kitkat" />
 
