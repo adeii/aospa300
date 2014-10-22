@@ -15,7 +15,4 @@
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
   
-  <!-- Linaro -->
-  <project name="AospaKKY300/linaro-4.7-13.04" path="prebuilt/linux-x86/toolchain/linaro-4.7-13.04/" remote="github" revision="Linaro" />
-
 </manifest>
