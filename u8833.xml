@@ -14,4 +14,8 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
+  
+  <!-- Linaro -->
+  <project name="AospaKKY300/linaro-4.7-13.04" path="prebuilts/gcc/linux-x86/arm/linaro-4.7-13.04" remote="github" revision="Linaro" />
+
 </manifest>
