@@ -2,11 +2,20 @@
 <manifest>
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
-  <project name="AospaKKY300/android_device_huawei_u8833" path="device/huawei/u8833" remote="github" revision="cm-11.0" />
-  <project name="AospaKKY300/android_device_huawei_u8825" path="device/huawei/u8825" remote="github" revision="cm-11.0" />
-  <project name="AospaKKY300/android_device_huawei_msm7x27a-common" path="device/huawei/msm7x27a-common" remote="github" revision="cm-11.0" />
-  <project name="AospaKKY300/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="kitkat" />
-  <project name="chil360/chil360-kernel" path="kernel/huawei/huawei-kernel-3.4" remote="github" revision="kitkat"/>
+  <project path="vendor/huawei" name="AospaKKY300/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
+  <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="github" revision="experimental"/>
+  <project path="device/huawei/msm7x27a-common" name="AospaKKY300/android_device_huawei_msm7x27a-common" remote="github" revision="cm-11.0"/>
+  <project path="device/huawei/u8833" name="AospaKKY300/android_device_huawei_u8833" remote="github" revision="cm-11.0"/>
+ 
+  <!-- WIFI -->
+  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+  <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+ 
+  <!-- QCOM -->
+  <remove-project name="AOSPA-legacy/android_hardware_qcom_display-caf" />
+  <remove-project name="AOSPA-legacy/android_hardware_qcom_media-caf" />
+  <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0"/>
+  <project path="hardware/qcom/media-caf" name="TeamHackLG/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0"/>
 
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
