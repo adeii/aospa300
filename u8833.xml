@@ -16,6 +16,9 @@
   <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0"/>
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
 
+  <!-- Toolchain gcc and linaro -->
+  <project path="prebuilt" name="AospaKKY300/android_prebuilt" remote="github" revision="kitkat" />
+
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
   <project name="AospaKKY300/android_vendor_pa" path="vendor/pa" remote="github" revision="kitkat" >
