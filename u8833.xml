@@ -11,6 +11,10 @@
   <!-- Toolchain gcc and linaro -->
   <project path="prebuilt" name="AospaKKY300/android_prebuilt" remote="github" revision="kitkat" />
 
+  <!-- Pa Settings ( CyanogenMod Performance Settings ) -->
+  <remove-project name="AOSPA-legacy/android_packages_apps_Settings" />
+  <project name="AospaKKY300/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="kitkat"/>
+
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
   <project name="AospaKKY300/android_vendor_pa" path="vendor/pa" remote="github" revision="kitkat" >
