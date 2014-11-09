@@ -17,7 +17,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
 
   <!-- Toolchain gcc and linaro -->
-  <project path="prebuilt" name="AospaKKY300/android_prebuilt" remote="github" revision="kitkat" />
+  <project path="toolchain" name="AospaKKY300/android_toolchain" remote="github" revision="kitkat" />
 
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
