@@ -22,7 +22,7 @@ mkdir .repo/local_manifests
 2. Add my local manifest
 
 ```bash
-curl https://raw.githubusercontent.com/AospaKKY300/android/kitkat/u8833.xml > .repo/local_manifests/roomservice.xml
+curl https://raw.githubusercontent.com/AospaKKY300/android/master/u8833.xml > .repo/local_manifests/roomservice.xml
 ```
 
 3. Download sources
