@@ -9,7 +9,7 @@
   <project name="chil360/chil360-kernel" path="kernel/huawei/huawei-kernel-3.4" remote="github" revision="kitkat"/>
 
   <!-- Toolchain gcc and linaro -->
-  <project path="toolchain" name="AospaKKY300/android_toolchain" remote="github" revision="kitkat" />
+  <project path="prebuilt" name="AospaKKY300/android_prebuilt" remote="github" revision="kitkat" />
 
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
