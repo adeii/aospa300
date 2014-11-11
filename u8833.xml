@@ -11,6 +11,14 @@
   <!-- Toolchain gcc and linaro -->
   <project path="prebuilt" name="AospaKKY300/android_prebuilt" remote="github" revision="kitkat" />
 
+  <!-- Nerd Tools -->
+  <project name="CyanogenMod/android_external_nano" path="external/nano" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_unrar" path="external/unrar" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_zip" path="external/zip" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_curl" path="external/curl" remote="cm" revision="cm-11.0" />
+  <project name="CyanogenMod/android_external_vim" path="external/vim" remote="cm" revision="cm-11.0" />
+
   <!-- Pa Vendor (Modified Build String) -->
   <remove-project name="AOSPA-legacy/android_vendor_pa" />
   <project name="AospaKKY300/android_vendor_pa" path="vendor/pa" remote="github" revision="kitkat" >
