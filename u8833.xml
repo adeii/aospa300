@@ -12,6 +12,7 @@
   <project path="prebuilt" name="AospaKKY300/android_prebuilt" remote="github" revision="kitkat" />
 
   <!-- Nerd Tools -->
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="cm" revision="cm-11.0" />
   <project name="CyanogenMod/android_external_nano" path="external/nano" remote="cm" revision="cm-11.0" />
   <project name="CyanogenMod/android_external_bash" path="external/bash" remote="cm" revision="cm-11.0" />
   <project name="CyanogenMod/android_external_unrar" path="external/unrar" remote="cm" revision="cm-11.0" />
