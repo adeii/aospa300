@@ -13,8 +13,8 @@ mkdir ~/bin
 PATH=~/bin:$PATH
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-mkdir liquid
-cd liquid
+mkdir aospa-caf
+cd aospa-caf
 repo init -u git://github.com/AOSPA-legacy/manifest.git -b kitkat
 mkdir .repo/local_manifests
 ```
