@@ -16,13 +16,12 @@ chmod a+x ~/bin/repo
 mkdir aospa
 cd aospa
 repo init -u git://github.com/AOSPA-legacy/manifest.git -b kitkat
-mkdir .repo/local_manifests
 ```
 
 2. Add my local manifest
 
 ```bash
-curl https://raw.githubusercontent.com/AospaKKY300/android/kitkat/u8833.xml > .repo/local_manifests/roomservice.xml
+curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.github.com/AospaKKY300/android/kitkat/u8833.xml
 ```
 
 3. Download sources
